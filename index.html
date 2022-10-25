@@ -1,88 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="left">
-         
-        <div class="dashboardContent">
-            <div id="dashLogo">LOGO</div>
-            <div class="topSidebar">
-                <ul>
-                <li><a href=""><img src="/images/home.svg">home</a></li>
-               <li><a href=""><img src="/images/profile.svg">profile</a></li>
-                <li><a href=""><img src="/images/messages.svg">messages</a></li>
-                <li><a href=""><img src="/images/history.svg">history</a></li>
-                <li><a href=""><img src="/images/task.svg">task</a></li>
-                <li><a href=""><img src="/images/community.svg">community</a></li>
-                </ul>
+      <div class="dashboardContent">
+        <div id="dashLogo" class="filterWhite">
+          <img src="/images/dashboard.svg" />Dashboard
         </div>
-                <div class="settings">
-                <ul>
-                <li><a href=""><img src="/images/settings.svg">settings</a></li>
-               <li><a href=""><img src="/images/support.svg">support</a></li>
-                <li><a href=""><img src="/images/privacy.svg">privacy</a></li>
-               </ul>
-
-                </div>
-                 
-                </div>
-                
-           
-            
-            
-        
-
-            
+        <div class="topSidebar">
+          <ul>
+            <li>
+              <a href=""
+                ><img src="/images/home.svg" class="filterWhite" />home</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="/images/profile.svg" class="filterWhite" />profile</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="/images/messages.svg"
+                  class="filterWhite"
+                />messages</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="/images/history.svg" class="filterWhite" />history</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="/images/task.svg" class="filterWhite" />task</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="/images/community.svg"
+                  class="filterWhite"
+                />community</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="settings">
+          <ul>
+            <li>
+              <a href=""
+                ><img
+                  src="/images/settings.svg"
+                  class="filterWhite"
+                />settings</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="/images/support.svg" class="filterWhite" />support</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="/images/privacy.svg" class="filterWhite" />privacy</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    
+
     <div class="right">
-        <div class="top">
+      <div class="top">
         <div class="upperhalf">
-            <input type="text" class="search">
-            <div id="notificationBell">Notif</div>
-            <div id="profilePic"><img src="/images/admin.svg">Admin</div>
+          <div class="searchBar">
+            <img src="/images/search.svg " class="searchSize" />
+            <input type="text" class="search" />
+          </div>
+
+          <div class="topright">
+            <div id="notificationBell"><img src="/images/bell.svg" /></div>
+            <div id="profilePic">
+              <img src="/images/conan.png" class="filtersize" />
+            </div>
+            <div id="name">Kane Le</div>
+          </div>
         </div>
         <div class="lowerhalf">
-           <div id="bigProfilePic"><img src="/images/admin.svg"></div>
-            <div id="userName">Hi there,<br> Kane Le (@Kane)</div>
-            
-            <div class="btnCont">
-            <button id="new">New</button>
-            <button id="upload">upload </button>
-            <button id="share">Share</button>
+          <div class="welcomeText">
+            <div id="bigProfilePic">
+              <img src="/images/conan.png" class="filtersize2" />
             </div>
+            <div id="userName">
+              Hi there,<br />
+              Kane Le (@Kane)
+            </div>
+          </div>
+
+          <div class="btnCont">
+            <button id="new">New</button>
+            <button id="upload">upload</button>
+            <button id="share">Share</button>
+          </div>
         </div>
+      </div>
+      <div class="bottom">
+        <div class="content">
+          <div class="projectDash">
+            <div id="project">
+              <h2>project 1</h2>
+              <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Mollitia nobis debitis incidunt qui voluptates, aliquam obcaecati
+              reprehenderit? Quibusdam culpa accusamus, autem labore aut fuga
+              vitae eligendi ipsum temporibus? Eveniet, neque.
+            </div>
+            <div id="project">
+              <h2>project 2</h2>
+              <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Esse excepturi ea necessitatibus enim commodi veritatis cupiditate
+              rerum officiis totam quam quisquam, cumque fuga praesentium
+              ducimus! At voluptate ex qui quod?
+            </div>
+            <div id="project">
+              <h2>project 3</h2>
+              <br />Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Aut, itaque sint! Odio autem, dolores corporis tempore,
+              necessitatibus facere ullam ad quia rerum optio nam impedit veniam
+              velit culpa, doloremque repellat?
+            </div>
+            <div id="project">
+              <h2>project 4</h2>
+              <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Totam, perferendis mollitia! Suscipit unde rem rerum voluptatibus
+              ut! Est, aperiam. Debitis veritatis optio placeat cum libero dolor
+              nemo, dolores inventore nisi?
+            </div>
+            <div id="project">
+              <h2>project 5</h2>
+              <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+              sit fugiat quos molestias. Exercitationem minima nostrum fuga nam,
+              adipisci dolore debitis, reprehenderit atque dignissimos fugiat
+              molestias assumenda ab ipsam sapiente.
+            </div>
+            <div id="project">
+              <h2>project 6</h2>
+              <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quidem repellat eos a amet, earum repudiandae quis in
+              eaque exercitationem ratione esse animi excepturi sed architecto
+              voluptas enim iste quod?
+            </div>
+          </div>
+          <div class="rightside">
+            <h1>Announcements</h1>
+            <div class="announcements">
+              <div class="banner"></div>
+              <div id="siteMaint">
+                <h4>Site Maint</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia eligendi sint, labore exercitationem aspernatur
+                  cupiditate consequuntur fuga sit minima veniam vero omnis ipsa
+                  nihil ad eum sed suscipit at quia.
+                </p>
+              </div>
+              <hr />
+              <div id="communityShareDay">
+                <h4>Community Share Day</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem quam, sapiente reprehenderit nobis harum alias
+                  dolore placeat quibusdam esse veniam incidunt laboriosam
+                  doloribus quasi similique, error assumenda. Laudantium, ipsum
+                  quasi.
+                </p>
+              </div>
+              <hr />
+              <div id="updatePrivacy">
+                <h4>Updated Private Policy</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                  officia saepe velit aliquid fuga tempore vitae illum
+                  cupiditate aperiam sint! Eius sit ex deleniti, distinctio
+                  labore ab minus consectetur. Error.
+                </p>
+              </div>
+            </div>
+            <h1>Trending</h1>
+            <div class="trending">
+              <div class="people">
+                <div class="userOne">
+                  <div id="users">
+                    <img src="/images/ran.png" class="trendSize" />
+                  </div>
+                  <div id="userName1">
+                    @Rachel <br />
+                    <div id="status">Word Peace Builder</div>
+                  </div>
+                </div>
+
+                <div class="userOne">
+                  <div id="users">
+                    <img src="/images/Kogoro.png" class="trendSize" />
+                  </div>
+                  <div id="userName1">
+                    @Richard <br />
+                    <div id="status">Super Cool Project</div>
+                  </div>
+                </div>
+                <div class="userOne">
+                  <div id="users">
+                    <img src="/images/Haibara.png" class="trendSize" />
+                  </div>
+                  <div id="userName1">
+                    @Haibara <br />
+                    <div id="status">Life Changing App</div>
+                  </div>
+                </div>
+                <div class="userOne">
+                  <div id="users">
+                    <img src="/images/doctor.png" class="trendSize" />
+                  </div>
+                  <div id="userName1">
+                    @DrAgasa <br />
+                    <div id="status">No Traffic Maker</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="bottom">
-        <div class="projectDash">
-            <div id="project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nobis debitis incidunt qui voluptates, aliquam obcaecati reprehenderit? Quibusdam culpa accusamus, autem labore aut fuga vitae eligendi ipsum temporibus? Eveniet, neque.</div>
-            <div id="project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse excepturi ea necessitatibus enim commodi veritatis cupiditate rerum officiis totam quam quisquam, cumque fuga praesentium ducimus! At voluptate ex qui quod?</div>
-            <div id="project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, itaque sint! Odio autem, dolores corporis tempore, necessitatibus facere ullam ad quia rerum optio nam impedit veniam velit culpa, doloremque repellat?</div>
-            <div id="project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, perferendis mollitia! Suscipit unde rem rerum voluptatibus ut! Est, aperiam. Debitis veritatis optio placeat cum libero dolor nemo, dolores inventore nisi?</div>
-            <div id="project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sit fugiat quos molestias. Exercitationem minima nostrum fuga nam, adipisci dolore debitis, reprehenderit atque dignissimos fugiat molestias assumenda ab ipsam sapiente.</div>
-            <div id="project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quidem repellat eos a amet, earum repudiandae quis in eaque exercitationem ratione esse animi excepturi sed architecto voluptas enim iste quod?</div>
-        </div>
-        <div class="rightside">
-        <div class="announcements">
-            <div id="siteMaint">Site Maint</div>
-            <div id="communityShareDay">Community share day</div>
-            <div id="updatePrivacy">updated Privacy</div>
-        </div>
-        <div class="trending">
-            <div id="users">user1</div>
-             <div id="users">user2</div>
-              <div id="users">user3</div>
-               <div id="users">user4</div>
-        </div>
-        </div>
-        </div>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
